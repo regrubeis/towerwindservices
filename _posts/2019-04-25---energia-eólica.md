@@ -4,6 +4,7 @@ excerpt: As estações anemométricas são responsáveis pelos registros dos dad
 tags: featured
 priority: 0.7
 options: minihead
+permalink: /eolicas/estac/
 categories:
   - eolicas
 background-image: pic01.jpg
