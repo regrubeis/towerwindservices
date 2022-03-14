@@ -14,7 +14,7 @@ background-image: telem.jpg
 #  - Renováveis
 #  - Energia Limpa
 #date/lastmod are optional
-#date: 2019-04-23 11:10:16 -0300
+date: 2019-04-23 11:10:16 -0300
 #lastmod: 2019-04-23 11:10:16 -0300
 ---
 
