@@ -8,7 +8,7 @@ categories:
   - eolicas
 background-image: pic01.jpg
 #date/lastmod are optional
-#date: 2019-04-25 16:54:41 -0300
+date: 2019-04-25 16:54:41 -0300
 #lastmod: 2019-04-25 16:54:41 -0300
 ---
 # Estações anemométricas
