@@ -98,7 +98,7 @@
                 <li class="icon fa-{% if my_post.icon %}{{ my_post.icon }}{% else %}globe{% endif %}"><!-- featured:{{ i }} -->
                   <a href="{{ my_post.url | prepend:site.baseurl }}">
                   <div class="container">
-                  <h3>{{ my_post.title }}</h3>
+                  <h4>{{ my_post.title }}</h4>
                   <p>{{ my_post.data}}<br />{{ my_post.excerpt | strip_html | truncatewords: 16 }}</p>
                   </div>
                   </a>

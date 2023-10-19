@@ -16,7 +16,9 @@ date: 2019-04-25 16:54:41 -0300
 
 {% include post_picwrap.html pos="left" src="/images/tow.jpg" %}
 
-Para a instalação de um parque eólico, as condições de vento locais têm de ser medidas para avaliação do local. Com base nos dados recolhidos durante o período de medição de vento é calculado o rendimento de energia eólica prevista. Quanto mais precisos forem os dados recolhidos, mais precisa será a previsão para a produção de energia eólica. Mesmo pequenas discrepâncias na avaliação dos dados de velocidade do vento multiplicam drasticamente a discrepância da energia eólica calculada. Assim, é crucial escolher cuidadosamente os instrumentos de medição e o construtor do mastro meteorológico.
+Para a instalação de um parque eólico, as condições de vento locais têm de ser medidas para avaliação do local. Com base nos dados recolhidos durante o período de medição de vento é calculado o rendimento de energia eólica prevista. Quanto mais precisos forem os dados recolhidos, mais precisa será a previsão para a produção de energia eólica. Mesmo pequenas discrepâncias na avaliação dos dados de velocidade do vento multiplicam drasticamente o resultado da energia eólica calculada. Assim, é crucial escolher cuidadosamente os instrumentos de medição e o construtor do mastro meteorológico.
+
+O monitoramento diário da qualidade dos dados é também fator fundamental para identificar falhas, assim como um plano de manutenção imediata para evitar perdas que podem atrasar o desenvolvimento do projeto.
 
 Nossos sistemas de medição de recursos eólicos atendem aos padrões internacionais de qualidade e foram testados em inúmeras campanhas de medição. Projetamos os nossos sistemas com foco em sensores e equipamentos adequados, sistemas de comunicação e de fornecimento de energia de acordo com as condições geográficas e climáticas locais.
 
