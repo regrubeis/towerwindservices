@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/regrubeis/towerwindservices/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/regrubeis/towerwindservices/actions/workflows/pages/pages-build-deployment)
+
 # arkadianriver.com
 
 My personal web site, using the awesome design of http://html5up.net/spectral by
