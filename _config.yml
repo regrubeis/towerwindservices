@@ -15,7 +15,7 @@ title: Energia Eólica - Tower Wind Services
 description: Serviços de torres de ventos para parques eólicos
 owner:
   name: Tower Wind Services # or company name
-  url: "https://towerwindservices.com" # your URL
+  url: "https://towerwindservices.com" #  your URL
 first_published: 2012 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
 url: "https://towerwindservices.com" # the base hostname & protocol for this site
