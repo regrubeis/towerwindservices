@@ -4,3 +4,168 @@
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
   Jekyll build mod and further hacks by @arkadianriver, MIT license
 -->
+  <!-- Scripts -->
+<script src="assets/js/cookieconsent.min.js"></script>
+<script>
+    window.CookieConsent.init({
+      language: {
+        current: 'en'
+      },
+      categories: {
+        necessary: {
+          needed: true,
+          wanted: true,
+          checked: true,
+          language: {
+            locale: {
+              en: {
+                name: 'Strictly Necessary Cookies',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+              },
+              hu: {
+                name: 'Szükséges sütik',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+              }
+            }
+          }
+        },
+        analytics: {
+          needed: false,
+          wanted: false,
+          checked: false,
+          language: {
+            locale: {
+              en: {
+                name: 'Analytics',
+                description:
+                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+              },
+            },
+          },
+                  },
+        marketing: {
+          needed: false,
+          wanted: false,
+          checked: false,
+          language: {
+            locale: {
+              en: {
+                name: 'Marketing',
+                description:
+                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+              },
+            },
+          },
+                  },
+        various: {
+          needed: false,
+          wanted: false,
+          checked: false,
+          language: {
+            locale: {
+              en: {
+                name: 'Various Cookies',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+              },
+              hu: {
+                name: 'Egyéb sütik',
+                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+              }
+            }
+          }
+        }
+      },
+      consentModeControls: {
+        ad_storage: 'marketing',
+        ad_user_data: 'marketing',
+        ad_personalization: 'marketing',
+        analytics_storage: 'analytics'
+      },
+      services: {
+        googleAnalytics: {
+          category: 'analytics',
+          type: '',
+          search: '',
+          language: {
+            locale: {
+              en: {
+                name: 'Google Analytics (analytics_storage)'
+              }
+            }
+          }
+        },
+        googleAds: {
+          category: 'marketing',
+          type: '',
+          search: '',
+          language: {
+            locale: {
+              en: {
+                name: 'Google Ads (ad_storage, ad_user_data, ad_personalization)'
+              }
+            }
+          }
+        },
+        facebook: {
+          category: 'various',
+          type: 'dynamic-script', // dynamic-script, script-tag, wrapped, localcookie
+          search: 'facebook',
+          language: {
+            locale: {
+              en: {
+                name: 'Facebook'
+              },
+              hu: {
+                name: 'Facebook'
+              }
+            }
+          }
+        },
+        azalead: {
+          category: 'various',
+          type: 'script-tag',
+          search: 'azalead',
+          language: {
+            locale: {
+              en: {
+                name: 'Azalead'
+              },
+              hu: {
+                name: 'Azalead'
+              }
+            }
+          }
+        },
+        wrapped: {
+          category: 'various',
+          type: 'wrapped',
+          search: 'wrapped',
+          language: {
+            locale: {
+              en: {
+                name: 'Wrapped'
+              },
+              hu: {
+                name: 'Csomagolt süti'
+              }
+            }
+          }
+        },
+        localcookie: {
+          category: 'various',
+          type: 'localcookie',
+          search: 'localcookie',
+          language: {
+            locale: {
+              en: {
+                name: 'Local cookie'
+              },
+              hu: {
+                name: 'Helyi süti'
+              }
+            }
+          }
+        }
+      }
+    });
+  </script>
