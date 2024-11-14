@@ -5,167 +5,167 @@
   Jekyll build mod and further hacks by @arkadianriver, MIT license
 -->
   <!-- Scripts -->
-<script src="assets/js/cookieconsent.min.js"></script>
-<script>
-    window.CookieConsent.init({
-      language: {
-        current: 'en'
-      },
-      categories: {
-        necessary: {
-          needed: true,
-          wanted: true,
-          checked: true,
-          language: {
-            locale: {
-              en: {
-                name: 'Strictly Necessary Cookies',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+  <script src="assets/js/cookieconsent.js"></script>
+  <script>
+      window.CookieConsent.init({
+        language: {
+          current: 'en'
+        },
+        categories: {
+          necessary: {
+            needed: true,
+            wanted: true,
+            checked: true,
+            language: {
+              locale: {
+                en: {
+                  name: 'Cookies estritamente necessários',
+                  description: 'Cookies estritamente necessários são cookies essenciais para que um site funcione corretamente. Eles são isentos de requisitos de consentimento de leis de privacidade como o Regulamento Geral de Proteção de Dados (GDPR). No entanto, os sites ainda devem divulgar seu uso.',
+                },
+                hu: {
+                  name: 'Szükséges sütik',
+                  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                }
+              }
+            }
+          },
+          analytics: {
+            needed: false,
+            wanted: false,
+            checked: false,
+            language: {
+              locale: {
+                en: {
+                  name: 'Analytics',
+                  description:
+                    'O Google Analytics 4 (GA4) não armazena endereços IP de usuários nem permite que sites coletem informações pessoalmente identificáveis ​​(PII). No entanto, você ainda precisa ter certeza de que está usando o serviço de uma forma que esteja alinhada com as regulamentações aplicáveis.',
+                },
               },
-              hu: {
-                name: 'Szükséges sütik',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+            },
+                    },
+          marketing: {
+            needed: false,
+            wanted: false,
+            checked: false,
+            language: {
+              locale: {
+                en: {
+                  name: 'Marketing',
+                  description:
+                    'Utilizamos cookies de marketing em nosso site para entender melhor seus interesses e oferecer conteúdo personalizado. Esses cookies nos ajudam a exibir anúncios relevantes com base na sua navegação, aprimorando sua experiência online. Ao aceitar, você concorda com o uso desses cookies para coletar informações sobre suas preferências e navegação em nosso site.',
+                },
+              },
+            },
+                    },
+          various: {
+            needed: false,
+            wanted: false,
+            checked: false,
+            language: {
+              locale: {
+                en: {
+                  name: 'Various Cookies',
+                  description: 'Utilizamos cookies essenciais para o funcionamento básico do site, cookies de desempenho e análise para entender e otimizar a experiência de navegação, cookies funcionais que lembram suas preferências, e cookies de marketing para exibir anúncios relevantes conforme seus interesses. Você pode gerenciar suas preferências de cookies nas configurações do navegador ou em nosso painel de configurações de cookies.',
+                },
+                hu: {
+                  name: 'Egyéb sütik',
+                  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+                }
               }
             }
           }
         },
-        analytics: {
-          needed: false,
-          wanted: false,
-          checked: false,
-          language: {
-            locale: {
-              en: {
-                name: 'Analytics',
-                description:
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-              },
-            },
+        consentModeControls: {
+          ad_storage: 'marketing',
+          ad_user_data: 'marketing',
+          ad_personalization: 'marketing',
+          analytics_storage: 'analytics'
+        },
+        services: {
+          googleAnalytics: {
+            category: 'analytics',
+            type: '',
+            search: '',
+            language: {
+              locale: {
+                en: {
+                  name: 'Google Analytics (analytics_storage)'
+                }
+              }
+            }
           },
-                  },
-        marketing: {
-          needed: false,
-          wanted: false,
-          checked: false,
-          language: {
-            locale: {
-              en: {
-                name: 'Marketing',
-                description:
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-              },
-            },
+          googleAds: {
+            category: 'marketing',
+            type: '',
+            search: '',
+            language: {
+              locale: {
+                en: {
+                  name: 'Google Ads (ad_storage, ad_user_data, ad_personalization)'
+                }
+              }
+            }
           },
-                  },
-        various: {
-          needed: false,
-          wanted: false,
-          checked: false,
-          language: {
-            locale: {
-              en: {
-                name: 'Various Cookies',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-              },
-              hu: {
-                name: 'Egyéb sütik',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
+          facebook: {
+            category: 'various',
+            type: 'dynamic-script', // dynamic-script, script-tag, wrapped, localcookie
+            search: 'facebook',
+            language: {
+              locale: {
+                en: {
+                  name: 'Facebook'
+                },
+                hu: {
+                  name: 'Facebook'
+                }
+              }
+            }
+          },
+          azalead: {
+            category: 'various',
+            type: 'script-tag',
+            search: 'azalead',
+            language: {
+              locale: {
+                en: {
+                  name: 'Azalead'
+                },
+                hu: {
+                  name: 'Azalead'
+                }
+              }
+            }
+          },
+          wrapped: {
+            category: 'various',
+            type: 'wrapped',
+            search: 'wrapped',
+            language: {
+              locale: {
+                en: {
+                  name: 'Wrapped'
+                },
+                hu: {
+                  name: 'Csomagolt süti'
+                }
+              }
+            }
+          },
+          localcookie: {
+            category: 'various',
+            type: 'localcookie',
+            search: 'localcookie',
+            language: {
+              locale: {
+                en: {
+                  name: 'Local cookie'
+                },
+                hu: {
+                  name: 'Helyi süti'
+                }
               }
             }
           }
         }
-      },
-      consentModeControls: {
-        ad_storage: 'marketing',
-        ad_user_data: 'marketing',
-        ad_personalization: 'marketing',
-        analytics_storage: 'analytics'
-      },
-      services: {
-        googleAnalytics: {
-          category: 'analytics',
-          type: '',
-          search: '',
-          language: {
-            locale: {
-              en: {
-                name: 'Google Analytics (analytics_storage)'
-              }
-            }
-          }
-        },
-        googleAds: {
-          category: 'marketing',
-          type: '',
-          search: '',
-          language: {
-            locale: {
-              en: {
-                name: 'Google Ads (ad_storage, ad_user_data, ad_personalization)'
-              }
-            }
-          }
-        },
-        facebook: {
-          category: 'various',
-          type: 'dynamic-script', // dynamic-script, script-tag, wrapped, localcookie
-          search: 'facebook',
-          language: {
-            locale: {
-              en: {
-                name: 'Facebook'
-              },
-              hu: {
-                name: 'Facebook'
-              }
-            }
-          }
-        },
-        azalead: {
-          category: 'various',
-          type: 'script-tag',
-          search: 'azalead',
-          language: {
-            locale: {
-              en: {
-                name: 'Azalead'
-              },
-              hu: {
-                name: 'Azalead'
-              }
-            }
-          }
-        },
-        wrapped: {
-          category: 'various',
-          type: 'wrapped',
-          search: 'wrapped',
-          language: {
-            locale: {
-              en: {
-                name: 'Wrapped'
-              },
-              hu: {
-                name: 'Csomagolt süti'
-              }
-            }
-          }
-        },
-        localcookie: {
-          category: 'various',
-          type: 'localcookie',
-          search: 'localcookie',
-          language: {
-            locale: {
-              en: {
-                name: 'Local cookie'
-              },
-              hu: {
-                name: 'Helyi süti'
-              }
-            }
-          }
-        }
-      }
-    });
-  </script>
+      });
+    </script>
