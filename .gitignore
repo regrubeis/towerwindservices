@@ -4,13 +4,6 @@
 _site/
 _drafts/
 _data/tokens.yml
-<<<<<<< HEAD
-#_posts/1*
-#_posts/2*
-=======
-# _posts/1*
-# _posts/2*
->>>>>>> 945a3c3c9c12987d04f9b6b021b6d49405d371e7
 unique/
 _site.env
 _my/
